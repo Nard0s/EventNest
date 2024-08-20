@@ -1,12 +1,22 @@
 import React from 'react'
+import "./Event.css"
 import Navbar from '../components/navBar/Navbar'
-import Blue_button from '../components/Button/Blue_button'
-import Green_button from '../components/Button/Green_button'
+import SearchBar from '../components/SearchBar/SearchBar'
 
 const Event = () => {
   return (
     <div>
-      
+      <Navbar/>
+      <div className="container">
+
+        <div className="top">
+            <h1>Events</h1>
+            <div className="search">
+              <SearchBar/>
+            </div>
+        </div>
+
+      </div>
     </div>
   )
 }

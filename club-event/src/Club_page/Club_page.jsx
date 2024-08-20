@@ -4,7 +4,7 @@ import Blue_button from '../components/Button/Blue_button'
 import Card from '../components/card/Card'
 import logo from '../components/img/download.png'
 import Navbar from '../components/navBar/Navbar'
-const Event = () => {
+const Club_page = () => {
   return (
     <div >
        {/* <div className="top">
@@ -12,7 +12,10 @@ const Event = () => {
             <div className="btn"><Blue_button btn='Register '/></div>
         </div> */}
 
-        <div className="nav"><Navbar/></div>
+        <div className="nav">
+            <Navbar/>
+        </div>
+
         <div className="club">
             <div className="logo">
                 <img src={logo} alt="" />
@@ -42,4 +45,4 @@ const Event = () => {
   )
 }
 
-export default Event
+export default Club_page

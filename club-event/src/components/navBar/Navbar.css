@@ -28,7 +28,7 @@
     /* max-width: 100%; */
    display: flex; 
    align-items: center;
-   justify-content: safe;
+   justify-content: space-between;
 }
 ul{
     list-style: none;
