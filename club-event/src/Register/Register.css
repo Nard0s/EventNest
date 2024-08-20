@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --primary-color:#00235b;
+    --secondary-color:#00ff0023;
+    --yellow-color:#c1ff6fa4;
+    --gradient-color:linear;
+    --light-green:#00ff002d;
+    --darkBlue-shadow:#00235b1d;
+    --gray-color: rgba(0, 0, 0, 0.564);
+    --icon-color:rgba(0, 0, 29, 0.567);
+    
+}
+.container{
+    display: flex;
+    margin: 0;
+}
+.register_content{
+    flex-basis: 75%;
+    text-align: center;
+    position: relative;
+   display: flex;
+   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register_content h1{
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.img{
+    flex-basis: 20%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.img img{
+  width: fit-content;
+}
+
+
+.blank{
+   flex-basis: 0.5%;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: var(--darkBlue-shadow);
+    border-radius: 10px;
+    width: 15rem;
+    height: 1.7rem;
+    padding: 1rem;
+   
+}
+input:hover{
+    border:10x solid var(--light-green);
+}
+label{
+    color: var(--primary-color);
+    
+}
+label:visited{
+    color: var(--secondary-color);
+}
+.btn{
+    margin-top: 2rem;
+}
+
+.nav{
+    align-self: center;
+    margin-right: 8rem;
+}
