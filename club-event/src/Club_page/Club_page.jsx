@@ -7,40 +7,31 @@ import Navbar from '../components/navBar/Navbar'
 const Club_page = () => {
   return (
     <div >
-       {/* <div className="top">
-            <div className="nav"><Navbar/></div>
-            <div className="btn"><Blue_button btn='Register '/></div>
-        </div> */}
-
-        <div className="nav">
+        <div className="Nav">
             <Navbar/>
         </div>
 
-        <div className="club">
+        <div className="top">
             <div className="logo">
                 <img src={logo} alt="" />
             </div>
-            <div className="content">
-                <div className="name">
-                    <h1>Club Name</h1>
-                </div>
-                <div className="description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusantium nemo tempore laudantium culpa ab!
-                    </p>
-                    <hr />
-                </div>
+            <div className="topContent">
+                <h1>Club Name</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, officia non? Esse veniam laudantium maxime?</p>
+                <hr />
             </div>
-            <div className="btn"><Blue_button btn='Register '/></div>
+            <div className="bBtn">
+                <Blue_button btn='Register '/>
+            </div>
         </div>
-{/* >>>>>>>>>>>>>>>>>>CARDS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
-        <div className="post">
-            <Card club_name='Tech Tonic' description='upcoming coming event'/>
-            <Card club_name='Tech Tonic' description='upcoming coming event'/>
-            <Card club_name='Tech Tonic' description='upcoming coming event'/>
-            <Card club_name='Tech Tonic' description='upcoming coming event'/>
-            <Card club_name='Tech Tonic' description='upcoming coming event'/>
+
+        <div className="events_card">
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
+            <Card/>
         </div>
-      
     </div>
   )
 }

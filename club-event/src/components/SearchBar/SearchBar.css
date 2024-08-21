@@ -6,8 +6,7 @@
     --light-green:#00ff002d;
     --darkBlue-shadow:#00235b1d;
     --gray-color: rgba(0, 0, 0, 0.564);
-    --icon-color:rgba(0, 0, 29, 0.567);
-    
+    --icon-color:rgba(0, 0, 29, 0.567); 
 }
 .container{
     display: flex;

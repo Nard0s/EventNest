@@ -1,17 +1,21 @@
-import './Navbar.css'
-function Navbar(){
-    return(
-        <div className='container'>
-            <div className="log">
-                <a href=""><h1>CE</h1></a>
-            </div>
-            <ul>
-                <li><a href="#">Home <span></span></a></li>
-                <li><a href="#">About<span></span></a></li>
-                <li><a href="#">Events<span></span></a></li>
-                <li><a href="#">Contact<span></span></a></li>
-            </ul>
-        </div>
-    );
+import React from 'react'
+import "./Navbar.css"
+const Navbar = () => {
+  return (
+    
+    <div className='Container'>
+        <header className='header'><a href="">CE</a></header>
+
+        <nav className='navbar'>
+            <a href="">HOME</a>
+            <a href="">ABOUT</a>
+            <a href="">EVENTS</a>
+            <a href="">CONTACT</a>
+
+        </nav>
+
+    </div>
+  )
 }
-export default Navbar;
+
+export default Navbar
