@@ -15,7 +15,6 @@
     --gray-color: rgba(0, 0, 0, 0.564);
     --icon-color:rgba(0, 0, 29, 0.567);    
 }
-
 .Nav{
     width: 100%;
     position: fixed;
@@ -27,7 +26,6 @@
     justify-content: space-between;
     margin-bottom: 3rem;
 }
-
 .logo{
     flex-basis: 10%;
     margin-left: 3rem;
