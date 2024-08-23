@@ -11,9 +11,7 @@ import Navbar from '../components/navBar/Navbar'
 function Home() {
   return (
     <div>
-        <div className="hero" 
-        style={{
-            }}>
+        <div className="hero">
 
             <div className="nav">
                 <Navbar/>

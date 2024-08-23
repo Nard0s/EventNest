@@ -6,9 +6,9 @@ import Blue_button from '../components/Button/Blue_button'
 const Register = () => {
   return (
     <div>
-      <div className="container">
-        <div className="register_content">
         <div className="nav"><Navbar/></div>
+      <div className="R_container">
+        <div className="register_content">
             <h1>Register</h1>
 
             <label htmlFor="name" >Full Name</label> <br />
@@ -24,7 +24,7 @@ const Register = () => {
             <input type="email" id='email'name='email' />
             
             <div className="btn">
-                <Blue_button btn='Submit'/>
+                <Blue_button btn='Submit '/>
             </div>
 
         </div>

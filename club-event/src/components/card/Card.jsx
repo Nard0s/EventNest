@@ -5,18 +5,16 @@ import Yellow_button from '../Button/Yellow_button';
 
 function Card(props){
     return(
-        <div className="container">   
-    
-            <div className='card'>
-                <img src={img} alt="event poster"/>
-                <h2>{props.club_name}</h2>
-                <div className="text">
-                <p>{props.description}.....</p>
-                </div>
-               
-                <Yellow_button btn="see more "/>
-                
+        <div>   
+            <div className="card_container">
+                <img src={img} alt="" />
+                <h2>{props.title}</h2>
+                <p className="description">
+                    {props.description}
+                </p>
+                <div className="btn"><a href=""><Yellow_button  btn='see more '/></a></div>
             </div>
+            
             
             
         </div>

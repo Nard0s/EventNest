@@ -1,6 +1,6 @@
 :root{
     --primary-color:#00235b;
-    --secondary-color:#00ff0023;
+    --secondary-color:#00ff00;
     --yellow-color:#c1ff6fa4;
     --gradient-color:linear;
     --light-green:#00ff002d;
@@ -21,8 +21,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 10rem;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.248);
-    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
     
     }
 
@@ -37,15 +37,16 @@ a{
 .navbar a{
     color: var(--primary-color);
     font-weight: 700;
-    transition: all .5s ease;
+    transition: all .3s ease;
 }
 .navbar a:hover{
-    color: var(--secondary-color);
-    transform: scale3d(0.1rem);
+    /* opacity: 0.3; */
+    color: #00ff00;
+    /* transform: scale(0.1rem); */
 
 }
 .header a {
-    color: var(--secondary-color);
+    color:var(--primary-color);    
     font-weight: 700;
     font-size: 2rem;
 }

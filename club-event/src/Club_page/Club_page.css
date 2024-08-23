@@ -18,13 +18,18 @@
 .Nav{
     width: 100%;
     position: fixed;
+    z-index: 100;
 }
 .top{
+    background: url(../components/img/HD-wallpape);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 3rem;
+    
 }
 .logo{
     flex-basis: 10%;
@@ -43,7 +48,24 @@
  margin-right: 3rem;
 }
 .events_card{
-    display: flex;
-    flex-wrap:wrap;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 5.5rem;
 }
+h1{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 800;
+}
+ p{
+    color:rgb(38, 35, 35);
+    font-weight: 600;
+    margin-bottom: 1rem;
+ }
+
+ hr{
+    height: 2.5px;
+    border: none;
+    background-color:rgba(0, 0, 0, 0.696);
+ }
