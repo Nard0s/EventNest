@@ -1,0 +1,34 @@
+:root{
+    --primary-color:#00235b;
+    --secondary-color:#00ff00;
+    --yellow-color:#c1ff6fa4;
+    --gradient-color:linear;
+    --light-green:#00ff002d;
+    --darkBlue-shadow:#00235b1d;
+    --gray-color: rgba(0, 0, 0, 0.564);
+    --icon-color:rgba(0, 0, 29, 0.567); 
+}
+.a_container{
+    padding-top: 7rem;
+}
+
+.a_content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.a_text{
+    flex-basis: 60%;
+    justify-self: center;
+    padding-left: 5rem;
+}
+img{
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    /* flex-basis: 40%; */
+    width: 600px;
+    height: 600px;
+}
+.a_body{
+    height: 100dvh;
+}

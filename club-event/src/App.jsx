@@ -5,10 +5,21 @@ import Navbar from './components/navBar/Navbar'
 import Home from './Home/Home'
 import Register from './Register/Register'
 import SearchBar from './components/SearchBar/SearchBar'
+import Blue_button from './components/Button/Blue_button'
+import Green_button from './components/Button/Green_button'
+import Card from './components/card/Card'
+import Add_post from './Add_post/Add_post'
+import Member_Info from './Member_Info/Member_Info'
+import About from './About/About'
 function App() {
   return (
     <>
-      <SearchBar/>
+      <About/>
+      {/* <Member_Info/> */}
+      {/* <Add_post/> */}
+      {/* <Card/> */}
+      {/* <Blue_button/> */}
+      {/* <SearchBar/> */}
       {/* <Register/> */}
       {/* <Home/> */}
       {/* <Event/> */}

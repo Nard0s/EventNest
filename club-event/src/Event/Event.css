@@ -1,6 +1,36 @@
-.e_top{
-    padding-top: 5rem;
+:root{
+    --primary-color:#00235b;
+    --secondary-color:#00ff00;
+    --yellow-color:#c1ff6fa4;
+    --gradient-color:linear;
+    --light-green:#00ff002d;
+    --darkBlue-shadow:#00235b1d;
+    --gray-color: rgba(0, 0, 0, 0.564);
+    --icon-color:rgba(0, 0, 29, 0.567); 
 }
-.event h1{
-    /* text-align: start; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.e_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5rem;
+    
+}
+.e_container{
+position: relative;
+}
+.e_container hr{
+    margin: 0 6rem;
+ justify-content: center;
+
+}
+.e-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 5.5rem;
+ 
 }

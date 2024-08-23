@@ -1,0 +1,34 @@
+:root{
+    --primary-color:#00235b;
+    --secondary-color:#00ff00;
+    --yellow-color:#c1ff6fa4;
+    --gradient-color:linear;
+    --light-green:#00ff002d;
+    --darkBlue-shadow:#00235b1d;
+    --gray-color: rgba(0, 0, 0, 0.564);
+    --icon-color:rgba(0, 0, 29, 0.567); 
+}
+.info_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+.info_body span{
+    color: var(--secondary-color);
+}
+.table{
+   
+    text-align: center;
+    border: 1.5px solid ;
+    border-color: var(--primary-color);
+}
+
+.table th,td{
+
+    padding: .5rem 1.5rem;
+    border: 1px solid ;
+    border-color: var(--primary-color);
+}
+
+

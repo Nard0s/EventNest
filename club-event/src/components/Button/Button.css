@@ -5,7 +5,7 @@
     --gradient-color:linear;
 }
 button{
-    padding: 15px 4px;
+   
     border-radius: 25px;
     border: none;
     transform: 5s;
@@ -42,7 +42,7 @@ button:hover{
     background-color: var(--yellow-color);
     color: rgb(41, 41, 41);
     width: 100px;
-    height: 40px;
+    height: 35px;
     font-size: 0.7rem;
 }
 .yellow:hover{

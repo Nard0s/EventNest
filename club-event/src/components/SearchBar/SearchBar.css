@@ -1,7 +1,31 @@
-.x input{
-    width: 400px;
-    background-color: white;
+:root{
+    --primary-color:#00235b;
+    --secondary-color:#00ff00;
+    --yellow-color:#c1ff6fa4;
+    --gradient-color:linear;
+    --light-green:#00ff002d;
+    --darkBlue-shadow:#00235b1d;
+    --gray-color: rgba(0, 0, 0, 0.564);
+    --icon-color:rgba(0, 0, 29, 0.567); 
 }
-.x{
-    background-color:white
+.search input{
+    width: 400px;
+    background-color: rgba(164, 255, 173, 0.758);
+}
+.search{
+    display: flex;
+    padding: 0 1rem;
+    border-radius: 15px;
+    align-items: center;
+    background-color:rgba(164, 255, 173, 0.758);
+    width: 400px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.141);
+    
+}
+i{
+    color: var(--primary-color);
+
+}
+::placeholder{
+    color: var(--gray-color);
 }

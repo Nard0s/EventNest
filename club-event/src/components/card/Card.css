@@ -1,6 +1,6 @@
 :root{
     --primary-color:#00235b;
-    --secondary-color:#00ff0023;
+    --secondary-color:#00ff00;
     --yellow-color:#c1ff6fa4;
     --gradient-color:linear;
     --light-green:#00ff002d;
@@ -13,9 +13,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-h2{
-    /* text-align: center; */
-}
+
 
 .card_container{
     display: flex;
@@ -33,3 +31,7 @@ p,
 .btn{
     padding:0 1rem ;
 }
+.card_container img{
+    width: 100%;
+}
+

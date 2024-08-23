@@ -21,7 +21,7 @@ const Club_page = () => {
                 <hr />
             </div>
             <div className="bBtn">
-                <Blue_button btn='Register '/>
+                <Blue_button padding='7px 12px' btn='Register '/>
             </div>
         </div>
 

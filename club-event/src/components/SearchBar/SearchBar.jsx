@@ -1,11 +1,11 @@
 import React from 'react'
 import './SearchBar.css'
-const SearchBar = () => {
+const SearchBar = (props) => {
   return (
     <div>
-      <div className="x">
+      <div className="search" style={{width:props.width}}>
         <i class="fa fa-search" aria-hidden="true"></i>
-        <input type="text" placeholder='search ' />
+        <input type="text" placeholder='search here...... ' />
       </div>
     </div>
   )
