@@ -9,8 +9,10 @@ const About = () => {
       <div className="a_container">
         <div className="a_content">
             <div className="a_text">
-                <h1>About</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sapiente perferendis totam pariatur doloremque obcaecati nemo aliquid, minima nostrum assumenda a placeat velit ad necessitatibus, quidem quos iste quisquam illum!</p>
+                <h1>About <span>Us</span></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sapiente perferendis totam pariatur doloremque obcaecati nemo aliquid, minima nostrum assumenda a placeat velit ad necessitatibus, quidem quos iste quisquam illum!orem, ipsum dolor sit amet consectetur adipisicing elit. Et sapiente perferendis totam pariatur doloremque obcaecati nemo aliquid, minima nostrum assumenda a placeat velit ad necessitatibus, quidem quos iste quisquam illum</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sapiente perferendis totam pariatur doloremque obcaecati nemo aliquid, minima nostrum assumenda a placeat velit ad necessitatibus, quidem quos iste quisquam illum!orem, ipsum dolor sit amet consectetur adipisicing elit. Et sapiente perferendis totam pariatur doloremque obcaecati nemo aliquid, minima nostrum assumenda a placeat velit ad necessitatibus, quidem quos iste quisquam illum</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sapiente perferendis totam pariatur doloremque obcaecati nemo aliquid, minima nostrum assumenda a placeat velit ad necessitatibus, quidem quos iste quisquam illum!orem, ipsum dolor sit amet consectetur adipisicing elit. Et sapiente perferendis totam pariatur doloremque obcaecati nemo aliquid, minima nostrum assumenda a placeat velit ad necessitatibus, quidem quos iste quisquam illum</p>
             </div>
                 <img src={img} alt="" />
         </div>

@@ -11,10 +11,14 @@ import Card from './components/card/Card'
 import Add_post from './Add_post/Add_post'
 import Member_Info from './Member_Info/Member_Info'
 import About from './About/About'
+import Admin from './Admin/Admin'
+import Admin_login from './Admin_login/Admin_login'
 function App() {
   return (
     <>
-      <About/>
+    {/* <Admin_login/> */}
+      {/* <Admin/>????? */}
+      {/* <About/> */}
       {/* <Member_Info/> */}
       {/* <Add_post/> */}
       {/* <Card/> */}

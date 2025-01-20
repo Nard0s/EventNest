@@ -21,14 +21,18 @@
     flex-basis: 60%;
     justify-self: center;
     padding-left: 5rem;
+    align-self: center;
 }
-img{
+/* img{
     border-top-left-radius: 100%;
     border-bottom-left-radius: 100%;
     /* flex-basis: 40%; */
-    width: 600px;
-    height: 600px;
-}
+    /* width: 600px;
+    height: 600px; */
+
 .a_body{
     height: 100dvh;
+}
+.a_text span{
+    color: var(--secondary-color);
 }

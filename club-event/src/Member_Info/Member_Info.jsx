@@ -16,7 +16,8 @@ const Member_Info = () => {
                     <th>Email</th>
                 </tr>
                 <tr>
-                    <td id='no'>1</td>
+                    <td id='no'>1</td>00000000000000000000-\
+                    0
                     <td>abebe</td>
                     <td>cs</td>
                     <td>dbu12345</td>
