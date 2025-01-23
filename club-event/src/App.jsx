@@ -16,7 +16,7 @@ import Admin_login from './Admin_login/Admin_login'
 function App() {
   return (
     <>
-    {/* <Admin_login/> */}
+    <Admin_login/>
       {/* <Admin/>????? */}
       {/* <About/> */}
       {/* <Member_Info/> */}
