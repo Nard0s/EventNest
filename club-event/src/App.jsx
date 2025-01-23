@@ -17,9 +17,9 @@ function App() {
   return (
     <>
     <Admin_login/>
-      <Admin/>?????
+      {/* <Admin/>????? */}
       {/* <About/> */}
-      {/* <Member_Info/> */}
+      <Member_Info/>
       {/* <Add_post/> */}
       {/* <Card/> */}
       {/* <Blue_button/> */}
