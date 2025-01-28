@@ -19,7 +19,7 @@ function App() {
     <Admin_login/>
       {/* <Admin/>????? */}
       {/* <About/> */}
-      <Member_Info/>
+      {/* <Member_Info/> */}
       {/* <Add_post/> */}
       {/* <Card/> */}
       {/* <Blue_button/> */}
