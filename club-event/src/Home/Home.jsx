@@ -23,7 +23,7 @@ function Home() {
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum expedita sit, exercitationem inventore ratione vel.</h3>
             </div>
             <div className="first_btn">
-                <Green_button  btn="Explore More "/>
+                {/* <Green_button  btn="Explore More "/> */}
             </div>
         </div>
 {/* >>>>>>>>>>>>>>>>>>>>>>>>>2nd>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
