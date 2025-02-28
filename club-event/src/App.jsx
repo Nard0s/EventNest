@@ -16,7 +16,7 @@ import Admin_login from './Admin_login/Admin_login'
 function App() {
   return (
     <>
-    <Admin_login/>
+    {/* <Admin_login/> */}
       {/* <Admin/>????? */}
       {/* <About/> */}
       {/* <Member_Info/> */}
@@ -25,7 +25,7 @@ function App() {
       {/* <Blue_button/> */}
       {/* <SearchBar/> */}
       {/* <Register/> */}
-      {/* <Home/> */}
+      <Home/>
       {/* <Event/> */}
       {/* <Club_page/> */}
       {/* <Navbar/> */}
