@@ -69,13 +69,13 @@ b{
     margin: 0 0 7rem 4rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    z-index: -1;
+    justify-content:center;
+    z-index: 1;
     
 }
 .content{
     flex-basis: 50%;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 .content h2{
     text-align: center;
@@ -90,19 +90,25 @@ b{
 
 }
 .img{
+    flex-basis: 50%;
     align-self:center;
-}
-img{
-    width: 80%;
     z-index: -1;
 }
-
+img{
+    /* width: 80%; */
+    z-index: -1;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 .content h1{
     text-align: center;
     color: var(--secondary-color);
     font-weight: 700;
     font-size: 3rem;
     margin-bottom: 2rem;
+}
+.third{
+    width: 100%;
+    height: 100%;
 }
 
 .third_container{

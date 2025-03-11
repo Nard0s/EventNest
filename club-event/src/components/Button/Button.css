@@ -4,6 +4,7 @@
     --yellow-color:#c1ff6f;
     --gradient-color:linear;
 }
+
 button{
    
     border-radius: 25px;
@@ -14,12 +15,12 @@ button{
 }
 button:hover{
     transform: scale(0.9);
-    opacity: .8;
+    /* opacity: 0.8; */
 }
 .blue{
     padding: 15px 40px;
      background-color: var(--primary-color);
-     color: #00ff00;
+     color: var(--secondary-color);
 }
 .blue:hover{
     background-color: var(--secondary-color);

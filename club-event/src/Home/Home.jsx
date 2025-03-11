@@ -37,6 +37,7 @@ function Home() {
             </div>
         </div>
 {/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>3rd>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */}
+<div className="third">
         <h1>Benefits</h1>
         <div className="third_container">
             <div className="first">
@@ -52,13 +53,15 @@ function Home() {
                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto dolore ad ab doloremque dolor cupiditate quo impedit nobis obcaecati.</h3> 
             </div>
         </div>
-        <div className="second_btn">
-            <Blue_button btn="See more "/>
-        </div>
+        
+    <div className="second_btn">
+        <Blue_button btn="See more "/>
+    </div>
 
     <div className="footer">
         <h1>footer???</h1>
     </div>
+</div>
     </div>
   )
 }

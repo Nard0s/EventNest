@@ -7,8 +7,9 @@
 }
 :root{
     --primary-color:#00235b;
-    --secondary-color:#00ff0023;
-    --yellow-color:#c1ff6fa4;
+    --secondary-color:#00ff00;
+    --yellow-color:#c1ff6f;
+    --gradient-color:linear;
     --text-color: rgba(0, 0, 0, 0.816);
     --light-green:#00ff002d;
     --darkBlue-shadow:#00235b1d;
