@@ -17,7 +17,7 @@ function App() {
   return (
     <>
     <Admin_login/>
-      {/* <Admin/>????? */}
+      <Admin/>?????
       {/* <About/> */}
       {/* <Member_Info/> */}
       {/* <Add_post/> */}
