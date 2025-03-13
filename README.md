@@ -3,6 +3,15 @@
 
 ## Overview
 
-Event Nest is a modern web application built with React that allows users to discover, create, and manage university  events. It provides an intuitive user interface for event organizers (clubs) and attendees to interact seamlessly......
 
+A modern React-powered web app designed to make university events fun and effortless!
+
+- ✅ Discover exciting events happening around campus 🎭
+
+- ✅ Create & Manage events with ease 📅
+
+- ✅ Seamlessly Interact – whether you're an event organizer (club) or an attendee 🎟️
+
+
+Event Nest brings students together by simplifying event planning and participation. Say goodbye to confusion and hello to organized, engaging university events! 🚀✨
 
